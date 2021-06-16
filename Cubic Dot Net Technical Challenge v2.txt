@@ -1,0 +1,48 @@
+# Cubic .NET Coding Challenge
+Write a text based, command line calculator.
+
+It should be able to accept a string representation of a numeric calculation
+as input and be able to solve the calculation so that the correct result is
+displayed.
+
+
+## Sample Data
+The following is a sample of test data that could be submitted as input.
+
+* 2 + 4 = 6
+* 5 - 41 = -36
+* 32 * -45 = -1440
+* -12 + 45 - 3 = 30
+* -3 + 100 / 4 = 22
+
+** 3 + ((-4 * 5) / 2) = -7
+** 3 + (-4 * 5) / 2 = -7
+** 3 + -4 * (5 / 2) = -7
+** 8*10+6/2 = 83
+** -3-+100 This would be tricky
+
+The solution should allow for future enhancement to provide custom operators.  For example, we may wish to implement a power operator using the '^' symbol.
+
+## Additional Instructions
+
+### Duration
+As you work through the test data, it will involve more and more functionality
+to be implemented so no need to complete it all but aim to spend one to two
+hours on the problem.
+
+### Format
+To be done in your choice of C# and .NET version preferably either in [Visual
+Studio][1] or [Visual Studio Code][2] (free versions are available for both with
+the latter also running on Windows, Mac OS, or many Linux distributions).  If
+you prefer not to install anything then [online development environments][3] are
+also available.
+
+Please zip up your solution and send it in before the interview.
+
+### Quality
+Treat it as a piece of code destined for production, feel free to use online
+resources for inspiration and we will discuss the solution during the interview.
+
+[1]: https://visualstudio.microsoft.com/vs/express/
+[2]: https://code.visualstudio.com/download
+[3]: https://repl.it/languages/csharp
